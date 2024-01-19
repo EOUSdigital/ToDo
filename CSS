@@ -1,0 +1,33 @@
+h1,
+p,
+#container {
+  text-align: center;
+}
+
+li {
+  list-style: none;
+  border-bottom: 1px dotted #CCC;
+  height: auto;
+  background-color: #F0F0F0;
+}
+
+li:hover {
+  background-color: #FFFFFF;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  -o-transition: all 0.2s;
+}
+
+.notes {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #F5F5F5;
+}
+
+.lines {
+  line-height: 20px;
+  margin: 0 auto;
+  width: auto;
+}
